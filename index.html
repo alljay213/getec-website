@@ -78,6 +78,65 @@
         </li>
       </ul>
     </section>
+    <section>
+      <h1>Email Us</h1>
+      <p>
+        What service are you in need of? Let us know and we will get in touch
+        with you as soon as we can!
+      </p>
+      <form action="">
+        <label for="first-name">
+          First Name:
+          <input type="text" id="first-name" name="first-name" />
+        </label>
+        <br />
+        <label for="last-name">
+          Last Name:
+          <input type="text" id="last-name" name="last-name" />
+        </label>
+        <br />
+        <label for="email">
+          Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@email.com"
+          />
+        </label>
+        <br />
+        <label for="phone-number">
+          Phone Number:
+          <input
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+            placeholder="123-456-7890"
+          />
+        </label>
+        <br />
+        <label for="service-needed">
+          Service Needed:
+          <select name="service-needed" id="service-needed">
+            <option value="heating-air-conditioning">
+              Heating & Air Conditioning
+            </option>
+            <option value="mechanicals">Mechanicals</option>
+            <option value="cleaning-services">Cleaning Services</option>
+            <option value="construction">Construction</option>
+            <option value="property-management">Property Management</option>
+          </select>
+        </label>
+        <br />
+        <label for="message">
+          Message (Give us some details about the service you need): <br />
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </label>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
     <footer id="contact">
       <h4>Contact Us</h4>
       <a href="mailto:getecserv@gmail.com">getecserv@gmail.com</a>
